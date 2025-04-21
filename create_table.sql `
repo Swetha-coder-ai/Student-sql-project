@@ -1,0 +1,18 @@
+CREATE TABLE Student(
+  student_id INT,
+  name VARCHAR(100),
+  class VARCHAR(100)
+  );
+
+
+CREATE TABLE Subjects(
+  subject_id INT,
+  name VARCHAR(100)
+  );
+
+CREATE TABLE Marks(
+  marks INT,
+  subject_id INT,
+  student_id INT
+  );
+
